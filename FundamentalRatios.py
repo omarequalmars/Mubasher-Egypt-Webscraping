@@ -9,6 +9,15 @@ driver = webdriver.Chrome()
 
 # Navigate to the financial ratios page
 def scrape(q):
+            """
+    Scrapes financial ratios data from Mubasher Egypt for the specified quarter.
+
+    Args:
+        quarter (str): The quarter to scrape data for (e.g., "First Quarter").
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the scraped data.
+    """
         driver.get("https://english.mubasher.info/analysis-tools/financial-ratios/EGX")
         time.sleep(5)
         # Select the "Fourth Quarter" option from the drop-down menu
