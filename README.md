@@ -20,21 +20,23 @@ pip install selenium beautifulsoup4
 ```
 ## Usage
 - Insider Trades:
-
 ```bash
 python InsiderTrades.py
 ```
 - Earnings
-
 ```bash
 python Earnings.py
 ```
-
 - Fundamental Ratios
-
 ```bash
-
+import FundamentalRatios.py
+scrape('First Quarter')
 ```
+- Liquidity Ratios
+```bash
+python LiquidityRatios.py
+```
+
 
 ## Contribution
 We welcome contributions to this project! If you have any improvements or suggestions, feel free to create a pull request.
