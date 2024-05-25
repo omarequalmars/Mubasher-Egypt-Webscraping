@@ -18,6 +18,24 @@ This project requires the following Python libraries:
 ```bash
 pip install selenium beautifulsoup4
 ```
+## Usage
+- Insider Trades:
+
+```bash
+python InsiderTrades.py
+```
+- Earnings
+
+```bash
+python Earnings.py
+```
+
+- Fundamental Ratios
+
+```bash
+
+```
+
 ## Contribution
 We welcome contributions to this project! If you have any improvements or suggestions, feel free to create a pull request.
 
